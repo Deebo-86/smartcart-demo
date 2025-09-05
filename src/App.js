@@ -62,7 +62,7 @@ function App() {
           <input
             key={i}
             value={item}
-            placeholder={\`Item \${i + 1}\`}
+            placeholder={`Item ${i + 1}`}
             onChange={(e) => updateItem(i, e.target.value)}
             className="border rounded p-2 w-full mb-2"
           />
